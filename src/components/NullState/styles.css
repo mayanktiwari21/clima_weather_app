@@ -1,0 +1,37 @@
+.null-state__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin: 1.5rem;
+}
+
+.null-state__img {
+    width: 16rem;
+    height: 16rem;
+}
+
+@media screen and (min-width: 480px) {
+    .null-state__img {
+        width: 20rem;
+        height: 20rem;
+    }
+}
+
+.null-state__message {
+    background-color: #f2f2f2;
+    color: #48484a;
+    padding: 0.75rem 1rem;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 600;
+    width: calc(100% - 2rem);
+    text-align: center;
+    margin: 0;
+}
+
+.null-state__message--error {
+    background-color: #eb6e4b;
+    color: white;
+}

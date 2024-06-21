@@ -1,0 +1,10 @@
+.search {
+    width: 35vw;
+    max-width: 20rem;
+    min-width: 10rem;
+    padding: 0.5rem;
+    outline: none;
+    border: none;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+}

@@ -1,0 +1,37 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f2f2f2;
+    color: #48484a;
+    height: 4rem;
+    padding: 0 1.5rem;
+}
+
+.navbar__brand {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar__logo-container {
+    height: 4rem;
+    width: 4rem;
+}
+
+.navbar__logo {
+    width: 100%;
+    height: auto;
+}
+
+.navbar__brand-text {
+    display: none;
+    font-size: 2rem;
+}
+
+@media screen and (min-width: 480px) {
+    .navbar__brand-text {
+        display: inline;
+    }
+}
+
